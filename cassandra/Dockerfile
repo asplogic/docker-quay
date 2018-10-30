@@ -4,4 +4,4 @@ COPY custom-entrypoint.sh /custom-entrypoint.sh
 COPY ready-probe.sh /ready-probe.sh
 
 ENTRYPOINT ["/custom-entrypoint.sh"]
-CMD ["cassandra", "-f"]
+# CMD ["cassandra", "-f"]
